@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myStyle.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <table id="main">
+        <tr class="green">
+            <th colspan="4">My Web space</th>
+        </tr>
+        <tr class="lightgreen">
+            <td colspan="4" id="menu">
+                <a href="./home.html">HOME</a>
+                <a href="./portfolio.html">PORTFOLIO</a>
+                <a href="./game.html">GAME</a>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" id="leftbar">
+                <h1>Helpful CSS Links</h1>
+                <li><b>CSS Tutorial</b>
+                    <ul>
+                    <li><a href="https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/CSS_basics">MDN(CSS)</a></li>
+                    <li><a href="https://www.tohoho-web.com/css/basic.htm">CSS Reference</a></li>
+                    <li><a href="https://ja.wikipedia.org/wiki/Cascading_Style_Sheets">CSS Wikipedia</a></li>
+                    </ul>
+                </li>
+                <li><b>TailwindCSS Tutorial</b>
+                    <ul>
+                    <li><a href="https://tailwindcss.com">TailwindCSS Reference</a></li>
+                    <li><a href="https://nerdcave.com/tailwind-cheat-sheet">TailwindCSS CheetSheet</a></li>
+                    </ul>
+                </li>
+            </td>
+            <td rowspan="3" id="content">  
+                <h1>About Me</h1>
+                    <p> Hello, my name is Kaito Kuroyanagi. 
+                        I wanted to study network security and programming, so I enrolled in Ritsumeikan University majoring in computer science. 
+                        Especially, I like learning security, so I entered security network course. My family consists of my parents, my grand parents, a younger sister and an elder brother. 
+                        In my free time, I like playing the guitar and walking.
+                        I can play both acoustic and electric guitars, but these days I mainly play electric guitar.
+                        The type of electric guitar I often use is a Fender Jazzmaster.
+                        My favorite music genres are jazz, rock, acid jazz, fusion, funk, and kawaii future bass. 
+                        I want to get a job which I make something in the field of IT or Music in the future. 
+                        Recently, I started to cook, and I became capable of making a curry and a Japanese hot pot dish. I try to cook a dish which I have never cook in my free time.
+                    </p>
+                    <img id="jazzmaster" src="./IMG_2274.jpeg" alt="">
+                    <p><b>Fender Jazzmaster</b></p>    
+            </td>
+            <td rowspan="3" id="rightbar">
+                <b><span>Contact Me</span></b>
+                <form action="/">
+                    <div>
+                      <label for="name">Name:</label>
+                      <input type="text" name="name">
+                    </div>
+                    <div>
+                      <label for="email">Email:</label>
+                      <input type="text" name="email">
+                    </div>
+                    <div>
+                      <label for="message">Message:</label>
+                      <textarea></textarea>
+                    </div>  
+                    <input type="button" value="submit">
+                    <input type="reset" value="Reset" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr class="green">
+            <td colspan="4" id="footer">
+                <span>the date of creation: 7/18</span>
+                <div>
+                    <a href="https://github.com/chatnoir552">My Github Page</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

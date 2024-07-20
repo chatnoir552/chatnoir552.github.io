@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myStyle.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <table id="main">
+        <tr class="green">
+            <th colspan="4">My Web space</th>
+        </tr>
+        <tr class="lightgreen">
+            <td colspan="4" id="menu">
+                <a href="./home.html">HOME</a>
+                <a href="./portfolio.html">PORTFOLIO</a>
+                <a href="./game.html">GAME</a>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" id="leftbar">
+                <h1>Helpful CSS Links</h1>
+                <li><b>CSS Tutorial</b>
+                    <ul>
+                    <li><a href="https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/CSS_basics">MDN(CSS)</a></li>
+                    <li><a href="https://www.tohoho-web.com/css/basic.htm">CSS Reference</a></li>
+                    <li><a href="https://ja.wikipedia.org/wiki/Cascading_Style_Sheets">CSS Wikipedia</a></li>
+                    </ul>
+                </li>
+                <li><b>TailwindCSS Tutorial</b>
+                    <ul>
+                    <li><a href="https://tailwindcss.com">TailwindCSS Reference</a></li>
+                    <li><a href="https://nerdcave.com/tailwind-cheat-sheet">TailwindCSS CheetSheet</a></li>
+                    </ul>
+                </li>
+            </td>
+            <td rowspan="3" id="content">  
+                    <h1>QUIZ GAME</h1>
+                    <form action="">
+                        <label for="pet-select">name:</label>
+                        <input type="text" id="name">
+                        <div><label for="pet-select">Q1: Which tags do you use to create headings in HTML?</label></div>
+                        <select name="q1" id="q1">
+                            <option value="s1">head</option>
+                            <option value="answer">h1</option>
+                            <option value="s3">header</option>
+                            <option value="s4">title</option>
+                        </select>
+                        <div><label for="pet-select">Q2: Which property can be used to change the text color to red in CSS?</label></div>
+                        <select name="q1" id="q2">
+                            <option value="s1">font-color</option>
+                            <option value="s2">text-color</option>
+                            <option value="answer">color</option>
+                            <option value="s4">background-color</option>
+                        </select>
+                        <div><label for="pet-select">Q3: Which keyword is used to declare variables in JavaScript?</label></div>
+                        <select name="q1" id="q3">
+                            <option value="answer">var</option>
+                            <option value="s2">def</option>
+                            <option value="s3">int</option>
+                            <option value="s4">float</option>
+                        </select>
+                        <div><label for="pet-select">Q4: Which tag is used to receive input from the user in an HTML form?</label></div>
+                        <select name="q1" id="q4">
+                            <option value="answer">input</option>
+                            <option value="s2">form</option>
+                            <option value="s3">button</option>
+                            <option value="s4">label</option>
+                        </select>
+                        <div><label for="pet-select">Q5: Which property is used to center an element in CSS?</label></div>
+                        <select name="q1" id="q5">
+                            <option value="s1">center</option>
+                            <option value="s2">align</option>
+                            <option value="answer">text-align</option>
+                            <option value="s4">middle</option>
+                        </select>
+                        <div><input id="submit" type="button" value="submit"></div>
+                    </form>
+            </td>
+            <td rowspan="3" id="rightbar">
+                <b><span>Contact Me</span></b>
+                <form action="/">
+                    <div>
+                      <label for="name">Name:</label>
+                      <input type="text" name="name">
+                    </div>
+                    <div>
+                      <label for="email">Email:</label>
+                      <input type="text" name="email">
+                    </div>
+                    <div>
+                      <label for="message">Message:</label>
+                      <textarea></textarea>
+                    </div>  
+                    <input type="button" value="submit">
+                    <input type="reset" value="Reset" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr class="green">
+            <td colspan="4" id="footer">
+                <span>the date of creation: 7/18</span>
+                <div>
+                    <a href="https://github.com/chatnoir552">My Github Page</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

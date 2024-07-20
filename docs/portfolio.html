@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myStyle.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <table id="main">
+        <tr class="green">
+            <th colspan="4">My Web space</th>
+        </tr>
+        <tr class="lightgreen">
+            <td colspan="4" id="menu">
+                <a href="./home.html">HOME</a>
+                <a href="./portfolio.html">PORTFOLIO</a>
+                <a href="./game.html">GAME</a>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" id="leftbar">
+                <h1>Helpful CSS Links</h1>
+                <li><b>CSS Tutorial</b>
+                    <ul>
+                    <li><a href="https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/CSS_basics">MDN(CSS)</a></li>
+                    <li><a href="https://www.tohoho-web.com/css/basic.htm">CSS Reference</a></li>
+                    <li><a href="https://ja.wikipedia.org/wiki/Cascading_Style_Sheets">CSS Wikipedia</a></li>
+                    </ul>
+                </li>
+                <li><b>TailwindCSS Tutorial</b>
+                    <ul>
+                    <li><a href="https://tailwindcss.com">TailwindCSS Reference</a></li>
+                    <li><a href="https://nerdcave.com/tailwind-cheat-sheet">TailwindCSS CheetSheet</a></li>
+                    </ul>
+                </li>
+            </td>
+            <td rowspan="3" id="content">  
+                <h1>My Portfolio</h1>
+                <table class="portfolio">
+                    <tr>
+                        <th>number</th>
+                        <th>name</th>
+                        <th>description</th>
+                        <th>date</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Enroll Ritsumeikan University </td>
+                        <td>I entered Ritsumeikan University in the Department of Information Science and Engineering.</td>
+                        <td>2020/4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Majoring in security network course</td>
+                        <td>I entered security network course in Ritsumeikan University.</td>
+                        <td>2020/9</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Selected as a Saionji Scholarship recipient</td>
+                        <td>Because of my good grades, I was selected as a recipient of the Saionji Scholarship.</td>
+                        <td>2021/4</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>web application creation</td>
+                        <td>In order to get a job at a company that creates web applications, I created an app related to course registration using HTML, CSS, Ruby on Rails, JavaScript, and AWS.</td>
+                        <td>2023/7</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Belonged to the System Software Laboratory</td>
+                        <td>I belonged to the System Software Laboratory, which researched security.</td>
+                        <td>2023/9</td>
+                    </tr>
+                </table>
+
+            </td>
+            <td rowspan="3" id="rightbar">
+                <b><span>Contact Me</span></b>
+                <form action="/">
+                    <div>
+                      <label for="name">Name:</label>
+                      <input type="text" name="name">
+                    </div>
+                    <div>
+                      <label for="email">Email:</label>
+                      <input type="text" name="email">
+                    </div>
+                    <div>
+                      <label for="message">Message:</label>
+                      <textarea></textarea>
+                    </div>  
+                    <input type="button" value="submit">
+                    <input type="reset" value="Reset" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr class="green">
+            <td colspan="4" id="footer">
+                <span>the date of creation: 7/18</span>
+                <div>
+                    <a href="https://github.com/chatnoir552">My Github Page</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
